@@ -20,6 +20,7 @@
     height: 50vh;
     position: absolute;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .item{
@@ -43,7 +44,7 @@
     align-items: center;
     width: 50px;
     user-select: none;
-    color: #000000;
+    color: #00000000;
     font: bold 30px sans-serif;
     border-radius: 10px;
     z-index: 1;
@@ -51,7 +52,7 @@
 
 .action_button:hover{
     color: #fff;
-    background-color: #0005;
+    background-color: #00000055;
     transition: all 1s;
     border-radius: 10px;
     cursor: pointer;
